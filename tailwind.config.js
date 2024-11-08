@@ -10,7 +10,10 @@ module.exports = {
         '54rem': '54rem',
         '26.625rem': '26.625rem',
         '39rem': '39rem',
-
+        '648px': '648px',
+        '398px': '398px',
+        '354px': '354px',
+        '480px': '480px',
 
       },
       borderRadius:{
