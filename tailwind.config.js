@@ -20,6 +20,10 @@ module.exports = {
       borderRadius:{
         '200':'12.5rem',
 
+      },
+      maxWidth:{
+        'maxW': '82rem',
+        'maxWs': '327px',
       }
     },
   },
