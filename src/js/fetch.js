@@ -1,13 +1,13 @@
 const username = 'PawelJeziorowski';
 const repositoriesContainer = document.querySelector('.repo--js');
 
-https://api.github.com/users/USERNAME/repos
+
 fetch(`https://api.github.com/users/${username}/repos`)
 .then(response => response.json())
 .then(response =>{
     for (let repository of response){
         const {name, html_url, description, homepage, stargazers_url, topics} = repository;
-        const element = `<div class=" h-398px  mb-16 max-xl:mb-5 max-xl:h-full">
+        const element = `<div class=" h-398px w-648px mr-4 mb-6 max-xl:mb-5 max-xl:h-full">
                     <div
                         class=" w-648px h-11 backdrop-brightness-200 flex justify-start items-center rounded-t-3xl max-xl:w-72">
                         <p class="w-3 h-3 rounded-full bg-gray-100 opacity-10 ml-4"> </p>

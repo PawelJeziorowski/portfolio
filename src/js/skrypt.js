@@ -15,26 +15,6 @@ const facebook = document.querySelector(".facebook--js");
 const instagram = document.querySelector(".instagram--js");
 const twitter = document.querySelector(".twitter--js");
 
-
-
-view.addEventListener('click', () => {
-    alert('Work in progres')
-});
-source.addEventListener('click', () => {
-    alert('Work in progres')
-});
-view2.addEventListener('click', () => {
-    alert('Work in progres')
-});
-source2.addEventListener('click', () => {
-    alert('Work in progres')
-});
-view3.addEventListener('click', () => {
-    alert('Work in progres')
-});
-source3.addEventListener('click', () => {
-    alert('Work in progres')
-});
 thing.addEventListener('click', () => {
     alert('Error, the specified page does not exist')
 });
