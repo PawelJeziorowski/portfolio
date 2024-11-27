@@ -14,14 +14,14 @@ fetch(`https://api.github.com/users/${username}/repos`)
             tags +=`<p class="bg-slate-400 rounded-sm w-auto p-1">${tag}</p>`
         }
 
-        const element = `<div class=" w-648px mr-4 max-xl:mb-5 max-xl:h-full">
+        const element = `<div class=" w-648px mr-4 overflow-clip bg-gradient-to-br from-white/10 to-white/5 rounded-3xl max-xl:mb-5 max-xl:h-full max-xl:w-72">
                     <div
-                        class=" w-648px h-11 backdrop-brightness-200 flex justify-start items-center mx-auto rounded-t-3xl max-xl:w-72">
-                        <p class="w-3 h-3 rounded-full bg-gray-100 opacity-10 ml-4"> </p>
-                        <p class="w-3 h-3 rounded-full bg-gray-100 opacity-10 ml-4"> </p>
-                        <p class="w-3 h-3 rounded-full bg-gray-100 opacity-10 ml-4"> </p>
+                        class=" w-648px h-11 px-4 bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex justify-start items-center mx-auto rounded-t-3xl max-xl:w-72">
+                        <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
+                        <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
+                        <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
                     </div>
-                    <div class=" w-648px backdrop-brightness-150 rounded-b-3xl p-10 mx-auto max-xl:w-72 max-xl:p-5">
+                    <div class=" w-648px rounded-b-3xl ring ring-black  p-10 mx-auto max-xl:w-72 max-xl:p-5 max-xl:h-full">
                         <div class="flex flex-row justify-start items-center mb-4 gap-4">
                             <p class="text-white text-2xl font-bold p-1">${name} </p>
                             <div class="text-gray-400 h-6 w-auto  flex rounded-sm">

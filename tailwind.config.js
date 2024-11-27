@@ -20,8 +20,13 @@ module.exports = {
         '480px': '480px',
 
       },
+      boxShadow: {
+        'shadowproject': 'inset 0 2px 0 0 rgba(255, 255, 255, 0.15)',
+        'shadowproject2': 'inset 0 2px 4px 0 rgba(255, 255, 255, 0.25)',
+      },
       lineHeight: {
         'extra1': '4rem',
+        'extra2':'48px',
       },
       borderRadius:{
         '200':'12.5rem',
@@ -29,8 +34,12 @@ module.exports = {
       },
       maxWidth:{
         'maxW': '82rem',
+        'maxW': '82rem',
         'maxWs': '327px',
-      }
+      },
+      colors: {
+        'bordergray': '#1F2937',
+      },
     },
   },
   plugins: [],
