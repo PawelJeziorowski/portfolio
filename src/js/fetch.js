@@ -10,7 +10,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
 
         let tags = ``;
 
-        for (tag of topics){
+        for (let tag of topics){
             tags +=`<p class="bg-slate-400 rounded-sm w-auto p-1">${tag}</p>`
         }
 
