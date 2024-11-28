@@ -1,21 +1,12 @@
 {
   "name": "my-repository",
   "version": "1.0.0",
-  "description":"",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel dev src/*.html",
-    "build": "parcel build src/*.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "Pawel Jeziorowski",
   "license": "ISC",
-  "dependencies": {
-    "parcel": "^2.13.0"
-  },
-  "devDependencies": {
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15"
-  },
-  "main": "tailwind.config.js",
   "description": ""
 }
