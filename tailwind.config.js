@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       spacing:{
         '90rem':'90rem',
         '47rem':'47rem',
@@ -40,6 +41,9 @@ module.exports = {
       colors: {
         'bordergray': '#1F2937',
       },
+      animation: {
+        'spin-slow': 'spin 18s linear infinite'
+      }
     },
   },
   plugins: [],

@@ -12,7 +12,7 @@
       class="flex flex-row justify-between items-center py-6 max-w-maxW mx-auto max-xl:px-4 max-xl:py-6 max-xl:w-72"
     >
       <content class="flex flex-row items-center max-xl:justify-between  gap-4">
-        <svg
+        <svg class="animate-spin-slow"
           width="40"
           height="40"
           viewBox="0 0 42 42"
@@ -125,12 +125,12 @@
             </svg>
             <a href="#contact">Get in toutch </a>
           </button>
-          <button
+          <div
             id="known"
-            class="w-64 h-16 text-xl text-lime-500 hover:text-lime-700 duration-500 hover:stroke-lime-700 font-bold flex flex-row gap-1 place-content-center items-center border-bordergray border-2 rounded-xl max-xl:my-4 known--js"
+            class="w-64 h-16 text-xl group text-lime-500 hover:text-lime-700 group-hover:stroke-lime-700 translate-colors duration-500 font-bold flex flex-row gap-1 place-content-center items-center border-bordergray border-2 rounded-xl max-xl:my-4 known--js"
           >
             <svg
-              class="stroke-lime-500 hover:text-lime-700 hover:stroke-lime-700 duration-500"
+              class="stroke-lime-500 hover:text-lime-700 group-hover:stroke-lime-700 duration-500"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -147,7 +147,7 @@
             </svg>
 
             <a href="#skills"> Get to known me </a>
-          </button>
+          </div>
         </div>
       </content>
       <img
@@ -453,7 +453,7 @@
         </p>
         <button
           id="mail"
-          class="p-4 text-xl bg-lime-500 hover:bg-lime-700 duration-500 text-black font-bold rounded-2xl flex flex-row gap-1 place-content-center items-center mb-10 max-xl:mb-10 mail--js"
+          class="p-4 text-xl bg-lime-500 hover:bg-lime-700 duration-700 text-black font-bold rounded-2xl flex flex-row gap-1 place-content-center items-center mb-10 max-xl:mb-10 mail--js"
         >
           <a href="mailto:jeziorowski.pawel.pj@gmail.com">
             <div
@@ -485,7 +485,7 @@
           class="flex flex-row justify-center items-center gap-4 max-xl:w-72 flex-wrap max-xl:mb-6"
         >
           <div
-            class="w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex flex-col justify-center items-center git--js"
+            class="group w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject hover:bg-gradient-to-br hover:from-white/20 hover:to-white/10 duration-700 flex flex-col justify-center items-center git--js"
           >
             <a
               href="https://github.com/"
@@ -493,7 +493,7 @@
               rel="noopener noreferrer"
             >
               <svg
-                class="w-6 h-6 stroke-gray-400 fill-gray-400 hover:stroke-white hover:fill-white duration-500"
+                class="w-6 h-6 stroke-gray-400 fill-gray-400 group-hover:stroke-white group-hover:fill-white duration-700"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -511,10 +511,10 @@
           </div>
 
           <div
-            class="w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex flex-col justify-center items-center thing--js"
+            class="group w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject hover:bg-gradient-to-br hover:from-white/20 hover:to-white/10 duration-700  flex flex-col justify-center items-center thing--js"
           >
             <svg
-              class="w-6 h-6 hover:stroke-white hover:fill-white duration-500 stroke-gray-400 fill-gray-400"
+              class="w-6 h-6 group-hover:stroke-white group-hover:fill-white duration-700 stroke-gray-400 fill-gray-400"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -528,7 +528,7 @@
             </svg>
           </div>
           <div
-            class="w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex flex-col justify-center items-center linkedin--js"
+            class="group w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 hover:bg-gradient-to-br hover:from-white/20 hover:to-white/10 duration-700 shadow-shadowproject flex flex-col justify-center items-center linkedin--js"
           >
             <a
               href="https://linkedin.com/"
@@ -536,7 +536,7 @@
               rel="noopener noreferrer"
             >
               <svg
-                class="w-6 h-6 stroke-gray-400 fill-gray-400 hover:stroke-white hover:fill-white duration-500"
+                class="w-6 h-6 stroke-gray-400 fill-gray-400 group-hover:stroke-white group-hover:fill-white duration-700"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -551,7 +551,7 @@
             </a>
           </div>
           <div
-            class="w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex flex-col justify-center items-center facebook--js"
+            class="group w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 hover:bg-gradient-to-br hover:from-white/20 hover:to-white/10 duration-700  shadow-shadowproject flex flex-col justify-center items-center facebook--js"
           >
             <a
               href="https://facebook.com/"
@@ -559,7 +559,7 @@
               rel="noopener noreferrer"
             >
               <svg
-                class="w-6 h-6 stroke-gray-400 fill-gray-400 hover:stroke-white hover:fill-white duration-500"
+                class="w-6 h-6 stroke-gray-400 fill-gray-400 group-hover:stroke-white group-hover:fill-white duration-700"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -574,7 +574,7 @@
             </a>
           </div>
           <div
-            class="w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex flex-col justify-center items-center instagram--js"
+            class="group w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject hover:bg-gradient-to-br hover:from-white/20 hover:to-white/10 duration-700  flex flex-col justify-center items-center instagram--js"
           >
             <a
               href="https://instagram.com/"
@@ -582,7 +582,7 @@
               rel="noopener noreferrer"
             >
               <svg
-                class="w-6 h-6 stroke-gray-400 fill-gray-400 hover:stroke-white hover:fill-white duration-500"
+                class="w-6 h-6 stroke-gray-400 fill-gray-400 group-hover:stroke-white group-hover:fill-white duration-700"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
@@ -601,11 +601,11 @@
             </a>
           </div>
           <div
-            class="w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject flex flex-col justify-center items-center twitter--js"
+            class="group w-14 h-14 rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject hover:bg-gradient-to-br hover:from-white/20 hover:to-white/10 duration-700 flex flex-col justify-center items-center twitter--js"
           >
             <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
               <svg
-                class="w-6 h-6 stroke-gray-400 fill-gray-400 hover:stroke-white hover:fill-white duration-500"
+                class="group w-6 h-6 stroke-gray-400 fill-gray-400 group-hover:stroke-white group-hover:fill-white duration-700"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
