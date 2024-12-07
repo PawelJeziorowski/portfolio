@@ -15,10 +15,12 @@
   </head>
 
   <body class="bg-background">
+    
     <section
-      class="flex flex-row justify-between items-center py-6 max-w-maxW mx-auto max-xl:px-4 max-xl:py-6 max-xl:w-72"
+      class=" py-6 sticky top-0 bg-background/50 backdrop-blur-lg max-xl:px-4 "
     >
-      <content class="flex flex-row items-center max-xl:justify-between  gap-4">
+    <div class="flex flex-row justify-between items-center max-w-maxW mx-auto max-xl:w-72">
+      <content class="flex flex-row items-center max-xl:justify-between gap-4">
         <svg class="animate-spin-slow"
           width="40"
           height="40"
@@ -84,10 +86,12 @@
           <a href="#contact"> Contact </a>
         </button>
       </content>
+    </div>
     </section>
+    <div class="max-xl:px-4">
     <section
       id="about"
-      class="flex flex-row justify-between items-center py-16 gap-x-16 max-w-maxW mx-auto max-xl:flex-col max-xl:px-4 max-xl:py-1"
+      class="flex flex-row justify-between items-center py-16 gap-x-16 max-w-maxW mx-auto max-xl:flex-col max-xl:py-1"
     >
       <content class="flex flex-col max-xl:order-5 max-xl:h-96">
         <div class="mb-16 max-xl:mb-4">
@@ -166,7 +170,7 @@
     </section>
     <section
       id="skills"
-      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:px-4 max-xl:pb-4 max-xl:pt-40"
+      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:pb-4 max-xl:pt-40"
     >
       <div class="mb-20 flex flex-col max-xl:items-center max-xl:mb-5">
         <p class="w-48 h-6 text-xl text-gray-400 font-bold">MY SKILLS</p>
@@ -180,7 +184,7 @@
         class="flex flex-row justify-between items-center gap-4 max-xl:flex-col"
       >
         <div
-          class="max-w-26rem h-40rem rounded-3xl flex flex-col bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject ring ring-black max-xl:w-72 max-xl:h-45rem"
+          class="max-w-26rem h-40rem rounded-3xl flex flex-col bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject ring-1 ring-inset ring-background max-xl:w-72 max-xl:h-45rem"
         >
           <div class="flex flex-col m-10">
             <svg
@@ -243,7 +247,7 @@
           </div>
         </div>
         <div
-          class="max-w-26rem h-40rem rounded-3xl bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject ring ring-black flex flex-col max-xl:w-72 max-xl:h-45rem"
+          class="max-w-26rem h-40rem rounded-3xl bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject ring-1 ring-inset ring-background flex flex-col max-xl:w-72 max-xl:h-45rem"
         >
           <div class="flex flex-col m-10">
             <svg
@@ -300,7 +304,7 @@
           </div>
         </div>
         <div
-          class="max-w-26rem h-40rem rounded-3xl bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject ring ring-black flex flex-col max-xl:w-72 max-xl:h-45rem"
+          class="max-w-26rem h-40rem rounded-3xl bg-gradient-to-br from-white/10 to-white/5 shadow-shadowproject ring-1 ring-inset ring-background flex flex-col max-xl:w-72 max-xl:h-45rem"
         >
           <div class="flex flex-col m-10">
             <svg
@@ -358,7 +362,7 @@
     </section>
     <section
       id="projects"
-      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:px-4 max-xl:py-4"
+      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:py-4"
     >
       <div
         class="flex flex-col justify-between max-xl:items-center max-xl:mb-5"
@@ -381,7 +385,7 @@
     </section>
     <section
       id="resume"
-      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:px-4 max-xl:py-4"
+      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:py-4"
     >
       <div class="mb-20 flex flex-col max-xl:items-center max-xl:mb-5">
         <p class="w-48 h-6 text-xl text-gray-400 font-bold">AFTER HOURS</p>
@@ -456,7 +460,7 @@
     </section>
     <section
       id="contact"
-      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:px-4 max-xl:py-4"
+      class="flex-row justify-between items-center py-16 max-w-maxW mx-auto max-xl:py-4"
     >
       <div class="flex flex-col items-center">
         <p class="text-white font-bold text-4xl mb-4 max-xl:text-3xl">
@@ -655,6 +659,7 @@
         </div>
       </div>
     </section>
+  </div>
     <script defer src="js/skrypt.js" type="module"></script>
     <script defer src="js/fetch.js" type="module"></script>
   </body>

@@ -21,7 +21,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
                         <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
                         <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
                     </div>
-                    <div class=" w-648px rounded-b-3xl ring ring-black p-10 mx-auto flex flex-col flex-wrap max-xl:w-72 h-auto max-xl:p-5 max-xl:h-full">
+                    <div class=" w-648px rounded-b-3xl ring-1 ring-inset ring-background p-10 mx-auto flex flex-col flex-wrap max-xl:w-72 h-auto max-xl:p-5 max-xl:h-full">
                         <div class="flex flex-row justify-start items-center mb-4 gap-4">
                             <p class="text-white text-2xl font-bold p-1">${name} </p>
                             <div class="text-gray-400 h-6 w-auto  flex rounded-sm">
