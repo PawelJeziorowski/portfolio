@@ -1,6 +1,7 @@
 const username = 'PawelJeziorowski';
 const repositoriesContainer = document.querySelector('.repo--js');
 
+console.log('Hi! If you want to talk, write me an email: jeziorowski.pawel.pj@gmail.com 😎')
 
 fetch(`https://api.github.com/users/${username}/repos`)
 .then(response => response.json())
