@@ -21,7 +21,7 @@ fetch(`https://api.github.com/users/${username}/repos`)
                         <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
                         <p class="w-3 h-3 rounded-full bg-black opacity-50 ml-1.5"> </p>
                     </div>
-                    <div class=" w-648px rounded-b-3xl ring ring-black p-10 mx-auto flex flex-wrap max-xl:w-72 h-auto max-xl:p-5 max-xl:h-full">
+                    <div class=" w-648px rounded-b-3xl ring ring-black p-10 mx-auto flex flex-col flex-wrap max-xl:w-72 h-auto max-xl:p-5 max-xl:h-full">
                         <div class="flex flex-row justify-start items-center mb-4 gap-4">
                             <p class="text-white text-2xl font-bold p-1">${name} </p>
                             <div class="text-gray-400 h-6 w-auto  flex rounded-sm">
@@ -35,11 +35,11 @@ fetch(`https://api.github.com/users/${username}/repos`)
                             </div>
                         </div>
                         <div class="text-gray-400 text-xl mb-4 ">${description}</div>
-                        <div
+                        <div aria-label='${tags}'
                             class="text-white h-7 w-auto flex justify-start items-centerm flex-wrap gap-4 mb-10 max-xl:h-3 max-xl:text-sm">
                                 ${tags}
                         </div>
-                        <div class="flex max-xl:flex-col max-xl:pt-4 gap-4">
+                        <div class="flex max-xl:flex-col gap-4 max-xl:mt-8">
                             <button id="view"
                                 class="group w-64 h-16 text-xl text-lime-500 font-bold hover:text-lime-700 group-hover:stroke-lime-700  duration-500 bg-black rounded-2xl flex flex-row gap-1 place-content-center items-center max-xl:w-40 view--js">
                                 <svg class="stroke-lime-500 group-hover:stroke-lime-700 duration-500" width="24" height="24" viewBox="0 0 24 24" fill="none"
