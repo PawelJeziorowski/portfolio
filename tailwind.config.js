@@ -40,6 +40,7 @@ module.exports = {
       },
       colors: {
         'bordergray': '#1F2937',
+        'background': '#020916',
       },
       animation: {
         'spin-slow': 'spin 18s linear infinite'
